@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --padding-container: 100px 0;
+    --color-title: #ecf0f7;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(11,4,7);
+    background: radial-gradient(circle, rgba(11,4,7,1) 0%, rgba(24,40,208,1) 100%);
+   
+}
+.img{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/fondo111.jpg');
+    border-radius: 2px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/logotipos/logo2.jpg);
+    border-radius: 300px;
+    margin: 0 auto;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/logotipos/logopotencia.jpg);
+    border-radius: 300px;
+    margin: 0 auto;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/logotipos/lotipofracccion.jpg);
+    border-radius: 300px;
+    margin: 0 auto;
+}
+.box3{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/logotipos/logotiponumeronaturales.jpg);
+    border-radius: 300px;
+    margin: 0 auto;
+}
+nav{
+
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 70px;
+    align-items: center;
+    text-decoration: none;
+   
+   
+   
+}
+.nav__link {
+    display: flex;
+    gap: 70px;
+    text-decoration: none;
+}
+.nav__items{
+    display: flex;
+    text-decoration: none;
+}
+.nav__items:hover{
+    background-color: #fff;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: black;
+    padding: 2px;
+}
+
+nav:hover{
+    background: rgb(112,27,104);
+    background: radial-gradient(circle, rgba(112,27,104,1) 0%, rgba(12,12,221,1) 100%);
+    border-radius: 10px;
+   
+}
+
+
+
+
+
+
+.grid__content{
+        margin:auto ;
+        display: grid;
+        width: 900px;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,33,253,1) 50%, rgba(0,0,0,1) 100%);
+        text-align: center;
+        border-radius: 10px;
+     
+}
+
+h1 {
+    color: #fff;
+}
+h1:hover{
+    color: #0300ab;
+}
+h2{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+
+
+
+
+    

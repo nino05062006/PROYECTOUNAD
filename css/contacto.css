@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    justify-content: center;
+    background-color: #0f0441;
+    display: grid;
+    align-items: center;
+    width: 300px;
+ 
+    
+   
+
+}
+a{  
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #f1effd;
+    gap: 500px;
+}
+
+
+
+body{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/fondo111.jpg');
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+nav:hover{
+    background-color: black;
+    transition: 2s;
+}
+
+ul{
+    gap: 90px;
+  
+}
+
+
+
+a:hover{
+ 
+    width: 90;
+    border-radius: 20px;
+    color: red;
+}
+.form{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,33,253,1) 50%, rgba(0,0,0,1) 100%);
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em  1.5em;
+}
+
+.form__container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+
+
+}
+
+.form__title{
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: .4em;
+    color: #f1effd;
+}
+
+.form__title:hover{
+    color: red;
+    background-color:black ;
+    border-radius: 20px;
+}
+
+
+.form__input{
+    font-family: inherit;
+   font-size: 1.5em;
+   padding: .8em 1 em;
+   outline: none;
+   border: none;
+   border: 1px solid #4010ce;
+   border-radius: 0.2em;
+}
+
+.form__input--message{
+ 
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form__cta{
+    font-family: inherit;
+    font-size: 1rem;
+    border: 1px solid #0f0441;
+    color: rgb(2, 8, 179);
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 700;
+}
+.form__cta:hover{
+    background-color:black ;
+    color: red;
+}
+@media (max-width:400px) {
+    .form{
+        padding: 3.5em  1em;
+    }
+    
+}

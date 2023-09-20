@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans';
+}
+
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,33,253,1) 50%, rgba(0,0,0,1) 100%);
+}
+header{
+    text-align: center;
+   background-image: url(../images/fondo1112.jpg);
+    padding: 10px 0;
+}
+
+
+
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+section{
+    border: 2px solid #eae7f0;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label{
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px dashed rgb(146, 138, 138);
+    margin-bottom: 3px;
+}
+
+label:hover{
+    background: #2091F9;
+}
+
+button{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+
+    background-color: rgb(32, 11, 218);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover{
+    background: rgb(219, 17, 17);
+    color: #fff;
+    transition: all .3s;
+    transform: scale(1.1);
+}
+
+h2{
+    text-align: center;
+}
+
+#resultado{
+    font-size: 30px;
+    color: darkred;
+}
+
+.btn{
+    text-align: center;
+    display:inline-block;
+    margin: 25px;
+    padding: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: scale(1.1);
+    background-color:  #2091F9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
