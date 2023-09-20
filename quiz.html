@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="whidth=device=width, initial-scale=1.0">
+    <title>GAMER QUIZZ</title>
+    <link href="css/estilosquiz.css" rel="stylesheet">
+    <link rel="shourtcut icon" href="./images/matematicas.ico"  type="image/x-icon" >
+</head>
+<body>
+    <header>
+
+      <a class="btn"  href="index.html">Inicio</a>
+      <a class="btn"  href="Blog_Games.html">Regresar</a>
+
+        <h1>QUIZZ GAMER MATH</h1>
+     <p>JUEGO PROBLEMAS MATEMATICOS</p>
+     <div class="container">
+     <section id="p0">
+  
+        <h3>1 ¿En una obra se tiene 150 cajas, cada una con 17 kilos de cemento ¿cuantas kilos  de cemento hay en la obra?  </h3>
+        <label>
+      <input type="radio"  value="1"  name="p0" onclick="respuesta(0, this)"> 2.000 kilos
+    </label>
+    <label>
+        <input type="radio"  value="2"  name="p0"onclick="respuesta(0, this)"> 2.177 kilos
+      </label>
+      <label>
+        <input type="radio"  value="3"  name="p0"onclick="respuesta(0, this)"> 3.000 kilos
+      </label>
+      <label>
+        <input type="radio"  value="4"  name="p0"onclick="respuesta(0, this)"> 2.550 kilos
+      </label>
+     </section>
+     <section id="p1">
+        <h3>2 ¿En 730 dias se cumplen dos años y 100 años un siglo ¿ cuantos dias hay en dos siglos ?  </h3>
+        <label>
+      <input type="radio"  value="1"  name="p1"onclick="respuesta(1, this)"> 72.500 dias
+    </label>
+    <label>
+        <input type="radio"  value="2"  name="p1"onclick="respuesta(1, this)"> 70.000 dias
+      </label>
+      <label>
+        <input type="radio"  value="3"  name="p1"onclick="respuesta(1, this)"> 73.000 dias
+      </label>
+      <label>
+        <input type="radio"  value="4"  name="p1"onclick="respuesta(1, this)"> 60.000 dias 
+      </label>
+     </section>
+     <section id="p2">
+        <h3>3 ¿camilo le regalaron dos libros ¿el primer libro tenia 200 paginas, el segundo libro tenia 300 paginas, el primer libro lo leyo en 20 dias , el segundo lo leyo fue leido el 30 dias ¿cual es el total de paginas que leyo  camilo?  </h3>
+        <label>
+      <input type="radio"  value="1"  name="p2"onclick="respuesta(2, this)"> 700 paginas
+    </label>
+    <label>
+        <input type="radio"  value="2"  name="p2"onclick="respuesta(2, this)"> 500 paginas
+      </label>
+      <label>
+        <input type="radio"  value="3"  name="p2"onclick="respuesta(2, this)"> 100 paginas
+      </label>
+      <label>
+        <input type="radio"  value="4"  name="p2"onclick="respuesta(2, this)"> ninguna de las anteriores
+      </label>
+      <section id="p2">
+        <h3>4 ¿ segun la informacion anterior en cuatos dias camilo leyo los dos libros ? </h3>
+        <label>
+      <input type="radio"  value="1"  name="p3"onclick="respuesta(3, this)"> 50 dias
+    </label>
+    <label>
+        <input type="radio"  value="2"  name="p3"onclick="respuesta(3, this)"> 70 dias
+      </label>
+      <label>
+        <input type="radio"  value="3"  name="p3"onclick="respuesta(3, this)"> 100 dias
+      </label>
+      <label>
+        <input type="radio"  value="4"  name="p3"onclick="respuesta(3, this)"> 30 dias
+      </label>
+     </section>
+     <section id="p3">
+        <h3>5 ¿ 123 niñas de la escuela deben ser transportadas en camionetas. Cada camioneta solo puede llevar 5 niñas. ¿Cuál es la cantidad  de camionetas que se necesitan para transportar a las 123 niñas de la escuela</h3>
+        <label>
+      <input type="radio"  value="1"  name="p4"onclick="respuesta(,4 this)"> 15  camionetas
+    </label>
+    <label>
+        <input type="radio"  value="2"  name="p4"onclick="respuesta(4, this)"> 50 camionetas
+      </label>
+      <label>
+        <input type="radio"  value="3"  name="p4"onclick="respuesta(4, this)">  24 camionetas
+      </label>
+      <label>
+        <input type="radio"  value="4"  name="p4"onclick="respuesta(4, this)"> 8 camionetas
+      </label>
+    </section>
+    <section id="p5">
+     <h3>6 ¿John tenía $ 100 dolares para comprar bebidas y sándwiches para su fiesta de cumpleaños. Compró 5 cajas pequeñas de bebidas a $ 4 dolares cada caja y 8 cajas de sándwiches a $ 6 dolares cada caja. ¿Cuánto dolares le quedó después de las compras?</h3>
+     <label>
+   <input type="radio"  value="1"  name="p5"onclick="respuesta(5, this)"> $ 77 dolares
+ </label>
+ <label>
+     <input type="radio"  value="2"  name="p5"onclick="respuesta(5, this)"> $22 dolares
+   </label>
+   <label>
+     <input type="radio"  value="3"  name="p5"onclick="respuesta(5, this)">  $55 dolares
+   </label>
+   <label>
+     <input type="radio"  value="4"  name="p5"onclick="respuesta(5, this)"> $32 dolares
+   </label>
+  </section>
+       
+    </header>
+    <button onclick="corregir()">CORREGIR  </button>
+    <h2>catidad de acertadas: <span id="resultado"></span></h2>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
